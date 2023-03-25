@@ -8255,11 +8255,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Github\\AspNetCore-PWA\\DemoPWA\\DemoPWA.csproj",
-      "projectName": "DemoPWA",
-      "projectPath": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Github\\AspNetCore-PWA\\DemoPWA\\DemoPWA.csproj",
+      "projectUniqueName": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\OngLives.PWA.csproj",
+      "projectName": "OngLives.PWA",
+      "projectPath": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\OngLives.PWA.csproj",
       "packagesPath": "C:\\Users\\Gabriel Gomes\\.nuget\\packages\\",
-      "outputPath": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Github\\AspNetCore-PWA\\DemoPWA\\obj\\",
+      "outputPath": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gabriel Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",

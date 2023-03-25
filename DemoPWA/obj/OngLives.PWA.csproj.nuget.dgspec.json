@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\DemoPWA.csproj": {}
+    "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\OngLives.PWA.csproj": {}
   },
   "projects": {
-    "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\DemoPWA.csproj": {
+    "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\OngLives.PWA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\DemoPWA.csproj",
-        "projectName": "DemoPWA",
-        "projectPath": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\DemoPWA.csproj",
+        "projectUniqueName": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\OngLives.PWA.csproj",
+        "projectName": "OngLives.PWA",
+        "projectPath": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\OngLives.PWA.csproj",
         "packagesPath": "C:\\Users\\Gabriel Gomes\\.nuget\\packages\\",
         "outputPath": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\obj\\",
         "projectStyle": "PackageReference",

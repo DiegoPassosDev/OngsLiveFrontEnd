@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tS056IOQUANh6HCOOrjqOtB2BoE2K6u/ivYoWys/sCLZk9Ddl6cJIqqujlrg9AcNWEqE9o5gF6h89AwXs+aoZg==",
+  "dgSpecHash": "MPgxy/rK41wlkOdmUZz6VWZHHge0yHwsBJRDbkU2Xka1jqMSaCyEMIWp4swCD46pg6LqFPpsRghDSm4RHqMLwQ==",
   "success": true,
-  "projectFilePath": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Github\\AspNetCore-PWA\\DemoPWA\\DemoPWA.csproj",
+  "projectFilePath": "F:\\gsgomes\\__codigos\\linguagens\\csharp\\2023\\Git_Github\\onglives\\FrontEnd\\OngsLiveFrontEnd\\DemoPWA\\OngLives.PWA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriel Gomes\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.0.3\\microsoft.aspnetcore.antiforgery.2.0.3.nupkg.sha512",
     "C:\\Users\\Gabriel Gomes\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.0.3\\microsoft.aspnetcore.authentication.abstractions.2.0.3.nupkg.sha512",
