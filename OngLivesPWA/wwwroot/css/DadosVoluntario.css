@@ -1,0 +1,132 @@
+﻿/*body {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    background: rgb(222, 138, 172);
+}
+*/
+h1 {
+    text-align: center;
+    /*color: #eee1e1;*/
+}
+
+form {
+    background: rgb(228, 161, 188);
+    margin: auto;
+    max-width: 600px;
+    padding: 25px;
+    border: 1px solid #aaa0a0cb;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+input[type="text"], select {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input[type="email"], select {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: rgb(188, 288, 161);
+    color: rgba(20, 20, 20, 0.692);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+    input[type="submit"]:hover {
+        background-color: rgb(161, 288, 228);
+    }
+
+.cadastrar-btn {
+    display: grid;
+}
+
+footer {
+    color: blue;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Estilos para o campo CPF */
+input[type="text"][id="cpf"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+    input[type="text"][id="cpf"]:focus {
+        border-color: #4CAF50;
+    }
+
+    input[type="text"][id="cpf"][required]:invalid {
+        border-color: red;
+    }
+
+    input[type="text"][id="cpf"]::-webkit-input-placeholder {
+        color: #999;
+    }
+
+    input[type="text"][id="cpf"]::-moz-placeholder {
+        color: #999;
+    }
+
+    input[type="text"][id="cpf"]:-ms-input-placeholder {
+        color: #999;
+    }
+
+    input[type="text"][id="cpf"]:-moz-placeholder {
+        color: #999;
+    }
+
+/* Aplica a máscara de CPF */
+input[type="text"][id="cpf"] {
+    letter-spacing: 0.01em;
+}
+
+    input[type="text"][id="cpf"]::-webkit-outer-spin-button,
+    input[type="text"][id="cpf"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+input[type="text"][id="cpf"] {
+    -moz-appearance: textfield;
+}
+
+#email-validation::before {
+    content: "✘";
+    color: red;
+    margin-left: -150px;
+}
+
+#email-validation.valid::before {
+    content: "✔";
+    color: green;
+}

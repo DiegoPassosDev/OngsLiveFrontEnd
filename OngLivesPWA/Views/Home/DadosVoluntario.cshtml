@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["title"] = "Voluntario";
+}
+
+<link rel="stylesheet" href="~/css/DadosVoluntario.css" asp-append-version="true" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/inputmask/inputmask.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/inputmask/inputmask.extensions.min.js"></script>
+
+<h1>Dados do Voluntário</h1>
+<form>
+    <label for="nome"></label>
+    <input type="text" id="nome" name="nome" placeholder="Nome"><br>
+
+    <label for="sobrenome"></label>
+    <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome"><br>
+
+    <label for="nascimento"></label>
+    <input type="text" id="nascimento" name="nascimento" maxlength="10" pattern="\d{2}\/\d{2}\/\d{4}" placeholder="Data de Nascimento">
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>*@
+
+    <label for="email"></label>
+    <span id="email-validation"></span>
+    <input type="email" id="email" name="email" required placeholder="E-mail">
+
+    <label for="telefone"></label>
+    <input type="text" id="telefone" name="telefone" placeholder="Telefone: (00) 0 0000-0000">
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/inputmask/inputmask.min.js"></script>*@
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/inputmask/inputmask.extensions.min.js"></script>*@
+
+    <script>
+        Inputmask({
+            mask: ['(99) 9999-9999', '(99) 9 9999-9999'],
+            keepStatic: true,
+            showMaskOnHover: false,
+            showMaskOnFocus: false,
+            onKeyDown: function (event) {
+                // Permite somente números e backspace
+                var key = event.keyCode || event.charCode;
+                return (key >= 48 && key <= 57) || key == 8;
+            },
+            onBeforeMask: function (value, opts) {
+                // Remove todos os caracteres não numéricos
+                return value.replace(/\D/g, '');
+            },
+            onBeforePaste: function (pastedValue, opts) {
+                // Remove todos os caracteres não numéricos
+                return pastedValue.replace(/\D/g, '');
+            },
+            onKeyValidation: function (result, opts) {
+                // Verifica se o telefone tem 10 ou 11 dígitos
+                if (result && result.length > 0) {
+                    return result.length === 10 || result.length === 11;
+                }
+                return true;
+            },
+            onInvalid: function (event, result, opts) {
+                // Limpa o valor do campo em caso de valor inválido
+                event.target.value = '';
+                alert('Telefone inválido!');
+            }
+        }).mask('#telefone');
+    </script>
+
+
+    <label for="cpf"></label>
+    <input type="text" id="cpf" name="cpf" minlength="11" maxlength="14" placeholder="CPF: 000.000.000-00" oninput="this.value=formatCPF(this.value)" required>
+
+
+    <label for="genero"></label>
+    <select id="genero" name="genero">
+        <option value="Escolha">Gênero</option>
+        <option value="Feminino">Feminino</option>
+        <option value="Masculino">Masculino</option>
+        <option value="Outro">Outro</option>
+    </select><br>
+
+    <label for="cep"></label>
+    <input type="text" id="cep" name="cep" placeholder="CEP"><br>
+
+    <label for="logradouro"></label>
+    <input type="text" id="logradouro" name="logradouro" placeholder="Logradouro"><br>
+
+    <label for="numero"></label>
+    <input type="text" id="numero" name="numero" placeholder="Número"><br>
+
+    <label for="bairro"></label>
+    <input type="text" id="bairro" name="bairro" placeholder="Bairro"><br>
+
+    <label for="cidade"></label>
+    <input type="text" id="cidade" name="cidade" placeholder="Cidade"><br>
+
+    <label for="estado"></label>
+    <input type="text" id="estado" name="estado" placeholder="Estado"><br>
+
+        <div class="cadastrar-btn">
+            <input type="submit" value="Cadastrar" formmethod="post" formaction="http://localhost:8001/servertest">
+        </div>
+</form>
+
+<script src="~/js/DadosVoluntario.js" asp-append-version="true"></script>

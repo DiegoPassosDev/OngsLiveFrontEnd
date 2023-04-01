@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Inscreva-se";
+}
+
+<link rel="stylesheet" href="~/css/Cadastro.css" asp-append-version="true" />
+
+<div id="kfht2" class="d-flex flex-column align-items-center justify-content-center">
+    <h1>
+        Inscreva-se
+    </h1>
+    <div class="d-flex flex-column" style="width: 70%;">
+        <label>Email:</label>
+        <input type="text" placeholder="seuemail@email.com" id="user" />
+    </div>
+    <div class="d-flex flex-column" style="width: 70%;">
+        <labe>Senha:</labe>
+        <input type="text" placeholder="pass123" id="pass" />
+    </div>
+
+    @*<input type="submit" value="Próximo"/>*@
+    <button id="sbg2">Criar</button>
+</div>
+
+<script src="~/js/Cadastro.js" asp-append-version="true"></script>

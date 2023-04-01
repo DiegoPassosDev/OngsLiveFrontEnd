@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace OngLivesPWA
@@ -29,6 +30,11 @@ namespace OngLivesPWA
             {
                 options.AddPolicy("AllowGoogleMaps",
                     builder => builder.WithOrigins("https://maps.googleapis.com"));
+            });
+            services.AddHttpsRedirection(options =>
+            {
+                options.RedirectStatusCode = (int)HttpStatusCode.TemporaryRedirect;
+                options.HttpsPort = 6505;
             });
         }
 
