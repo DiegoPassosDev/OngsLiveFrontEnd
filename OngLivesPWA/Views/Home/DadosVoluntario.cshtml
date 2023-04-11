@@ -9,7 +9,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/inputmask/inputmask.extensions.min.js"></script>
 
 <h1>Dados do Voluntário</h1>
-<form>
+<form action="javascript:void(0);">
     <label for="nome"></label>
     <input type="text" id="nome" name="nome" placeholder="Nome"><br>
 
@@ -22,7 +22,7 @@
 
     <label for="email"></label>
     <span id="email-validation"></span>
-    <input type="email" id="email" name="email" required placeholder="E-mail">
+    <input type="email" id="email" name="email" required placeholder="E-mail" value="a@a.a">
 
     <label for="telefone"></label>
     <input type="text" id="telefone" name="telefone" placeholder="Telefone: (00) 0 0000-0000">
@@ -65,7 +65,7 @@
 
 
     <label for="cpf"></label>
-    <input type="text" id="cpf" name="cpf" minlength="11" maxlength="14" placeholder="CPF: 000.000.000-00" oninput="this.value=formatCPF(this.value)" required>
+    <input type="text" id="cpf" name="cpf" minlength="11" maxlength="14" placeholder="CPF: 000.000.000-00" oninput="this.value=formatCPF(this.value)" required value="999.999.999-99">
 
 
     <label for="genero"></label>
@@ -94,9 +94,10 @@
     <label for="estado"></label>
     <input type="text" id="estado" name="estado" placeholder="Estado"><br>
 
-        <div class="cadastrar-btn">
-            <input type="submit" value="Cadastrar" formmethod="post" formaction="http://localhost:8001/servertest">
-        </div>
+    <div class="cadastrar-btn">
+        @*<input type="submit" value="Cadastrar">*@
+        <button id="btn">Cadastrar</button>
+    </div>
 </form>
 
 <script src="~/js/DadosVoluntario.js" asp-append-version="true"></script>

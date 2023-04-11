@@ -4,45 +4,56 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - OngLivesPWA</title>
-    <script src="~/js/axios.min.js"></script>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/axios/axios.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
-<body style="background-color: #FFD4F6;">
+<body style="/*background-color: #FFD4F6;*/">
     <header>
-        <nav class="navbar navbar-expand-xl navbar-toggleable-xl navbar-light box-shadow">
-            <div class="container">
+        <nav class="navbar navbar-expand-xl navbar-toggleable-xl navbar-light box-shadow p-0">
+            <div class="container" style="max-width: 100%; padding: 0px;">
+                <div style="width: 100%;">
+                    <div class="sjf8g d-flex justify-content-center align-items-center">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Entrar</a>
+                        <a class="nav-link text-dark" style="margin-right: 50%;" asp-area="" asp-controller="Home" asp-action="Cadastro">Cadastrar</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Central do cliente</a>
+                        <a class="nav-link text-dark suporte" asp-area="" asp-controller="" asp-action="">Suporte</a>
+                    </div>
+                </div>
+                <div class="polk2 d-flex justify-content-center">
+                    <div class="line"></div>
+                </div>
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ONGs Live</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-xl-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="ulist navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Localização</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Ong's'</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Mapa">Mapa</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Vagas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cadastro">Cadastrar</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Voluntários</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Entrar</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">E-mail</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Mais informações</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    @*<div class="container">
-        @RenderBody()
-    </div>*@
     <main id="lkfy4" class="container p-0">
         @RenderBody()
     </main>

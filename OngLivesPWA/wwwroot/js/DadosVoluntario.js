@@ -92,3 +92,49 @@ function validarDataNascimento() {
 
     return true;
 }
+
+var id = 0;
+$('#btn').click(function () {
+    id = id + 1;
+    var listData = new Object();
+    listData = {
+        id: id,
+        nome: $('#nome').val(),
+        sobrenome: $('#sobrenome').val(),
+        dataNascimento: $('#nascimento').val(),
+        email: $('#email').val(),
+        telefone: $('#telefone').val(),
+        cpf: $('#cpf').val(),
+        genero: $('#genero').val(),
+        cep: $('#cep').val(),
+        bairro: $('#bairro').val(),
+        estado: $('#estado').val(),
+        cidade: $('#cidade').val(),
+        enderecoLinhaUm: $('#logradouro').val(),
+        numero: $('#numero').val(),
+    }
+    console.log(listData);
+
+    // Resivar data de nascimento; as id's nao podem ficar nulas e nem o numero do endereco
+    axios.post("https://localhost:7185/api/Voluntarios", {
+        id: id,
+        nome: $('#nome').val(),
+        sobrenome: $('#sobrenome').val(),
+        dataNascimento: $('#nascimento').val(),
+        email: $('#email').val(),
+        telefone: $('#telefone').val(),
+        cpf: $('#cpf').val(),
+        genero: $('#genero').val(),
+        endereco: {
+            id: id,
+            cep: $('#cep').val(),
+            bairro: $('#bairro').val(),
+            estado: $('#estado').val(),
+            cidade: $('#cidade').val(),
+            enderecoLinhaUm: $('#logradouro').val(),
+            numero: id
+        }
+    }).then(result => {
+        console.log(result);
+    });
+});

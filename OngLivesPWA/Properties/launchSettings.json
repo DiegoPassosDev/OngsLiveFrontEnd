@@ -2,7 +2,7 @@
   "profiles": {
     "IISExpress": {
       "commandName": "IISExpress",
-      "launchBrowser": false,
+      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
@@ -10,13 +10,12 @@
     },
     "OngLivesPWA": {
       "commandName": "Project",
-      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "https://192.168.100.21:6505;http://192.168.100.21:7650"
+      "applicationUrl": "https://localhost:6505;http://localhost:7650"
     }
   },
   "iisSettings": {
