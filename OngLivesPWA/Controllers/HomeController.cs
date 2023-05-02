@@ -19,16 +19,6 @@ namespace OngLivesPWA.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        public IActionResult Mapa()
-        {
-            return View();
-        }
-
         public IActionResult Cadastro()
         {
             return View();
@@ -38,6 +28,11 @@ namespace OngLivesPWA.Controllers
             return View();
         }
         public IActionResult DadosVoluntario()
+        {
+            return View();
+        }
+
+        public IActionResult Localizacao()
         {
             return View();
         }

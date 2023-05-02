@@ -1,0 +1,13 @@
+﻿#lkfy4 {
+    height: inherit;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFD4F6;
+}
+
+#map {
+    width: 80%;
+    height: 600px;
+}
