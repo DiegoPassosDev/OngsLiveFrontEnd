@@ -14,11 +14,9 @@
         <nav class="navbar navbar-expand-xl navbar-toggleable-xl navbar-light box-shadow p-0">
             <div class="container" style="max-width: 100%; padding: 0px;">
                 <div style="width: 100%;">
-                    <div class="sjf8g d-flex justify-content-center align-items-center">
+                    <div class="sjf8g d-flex justify-content-end">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Entrar</a>
-                        <a class="nav-link text-dark" style="margin-right: 50%;" asp-area="" asp-controller="Home" asp-action="Cadastro">Cadastrar</a>
-                        <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Central do cliente</a>
-                        <a class="nav-link text-dark suporte" asp-area="" asp-controller="" asp-action="">Suporte</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cadastro">Cadastrar</a>
                     </div>
                 </div>
                 <div class="polk2 d-flex justify-content-center">
@@ -41,10 +39,16 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Vagas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Voluntários</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Voluntarios">Voluntários</a>
+                        </li>
+                       @* <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">E-mail</a>
+                        </li>*@
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Central do cliente</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">E-mail</a>
+                            <a class="nav-link text-dark suporte" asp-area="" asp-controller="" asp-action="">Suporte</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Mais informações</a>

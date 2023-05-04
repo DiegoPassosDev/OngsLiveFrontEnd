@@ -410,7 +410,6 @@ C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\
 C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\OngLives.PWA.TagHelpers.output.cache
 C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\OngLives.PWA.RazorCoreGenerate.cache
 C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\Razor\Views\Home\Mapa.cshtml.g.cs
 C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -744,5 +743,5 @@ C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\bin\Debug\
 C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\Razor\Views\Home\Cadastro.cshtml.g.cs
 C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
-C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\Razor\Views\Home\DadosVoluntario.cshtml.g.cs
 C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\Razor\Views\Home\Localizacao.cshtml.g.cs
+C:\Users\monte\OneDrive\Documents\GitHub\OngsLiveFrontEnd\OngLivesPWA\obj\Debug\net5.0\Razor\Views\Home\Voluntarios.cshtml.g.cs

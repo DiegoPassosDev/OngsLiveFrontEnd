@@ -27,7 +27,7 @@ namespace OngLivesPWA.Controllers
         {
             return View();
         }
-        public IActionResult DadosVoluntario()
+        public IActionResult Voluntarios()
         {
             return View();
         }

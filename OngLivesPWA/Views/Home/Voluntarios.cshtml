@@ -17,7 +17,7 @@
     <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome"><br>
 
     <label for="nascimento"></label>
-    <input type="text" id="nascimento" name="nascimento" maxlength="10" pattern="\d{2}\/\d{2}\/\d{4}" placeholder="Data de Nascimento">
+    <input type="text" id="nascimento" name="nascimento" maxlength="10" pattern="\d{2}\/\d{2}\/\d{4}" placeholder="Data de Nascimento" value="12/12/2012">
     @*<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>*@
 
     <label for="email"></label>
@@ -25,7 +25,7 @@
     <input type="email" id="email" name="email" required placeholder="E-mail" value="a@a.a">
 
     <label for="telefone"></label>
-    <input type="text" id="telefone" name="telefone" placeholder="Telefone: (00) 0 0000-0000">
+    <input type="text" id="telefone" name="telefone" placeholder="Telefone: (00) 0 0000-0000" value="99999999999">
     @*<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/inputmask/inputmask.min.js"></script>*@
     @*<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/inputmask/inputmask.extensions.min.js"></script>*@
 
@@ -95,9 +95,9 @@
     <input type="text" id="estado" name="estado" placeholder="Estado"><br>
 
     <div class="cadastrar-btn">
-        @*<input type="submit" value="Cadastrar">*@
-        <button id="btn">Cadastrar</button>
+        <input id="btn" type="submit" value="Cadastrar">
+        @*<button id="btn">Cadastrar</button>*@
     </div>
 </form>
 
-<script src="~/js/DadosVoluntario.js" asp-append-version="true"></script>
+<script src="~/js/Voluntarios.js" asp-append-version="true"></script>

@@ -68,6 +68,11 @@ html {
     .suporte {
 
     }
+
+    .ulist li {
+        list-style: disc;
+        margin: 0 20px 0 20px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -166,6 +171,7 @@ button.accept-policy {
 }
 
 #lkfy4 {
+    padding-top: 15px !important;
     margin: 0px;
     max-width: 100%;
 }

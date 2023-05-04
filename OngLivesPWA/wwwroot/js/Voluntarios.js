@@ -116,7 +116,7 @@ $('#btn').click(function () {
     console.log(listData);
 
     // Resivar data de nascimento; as id's nao podem ficar nulas e nem o numero do endereco
-    axios.post("https://localhost:7185/api/Voluntarios", {
+    axios.post("https://192.168.100.21:7185/api/Voluntarios", {
         id: id,
         nome: $('#nome').val(),
         sobrenome: $('#sobrenome').val(),
@@ -132,7 +132,7 @@ $('#btn').click(function () {
             estado: $('#estado').val(),
             cidade: $('#cidade').val(),
             enderecoLinhaUm: $('#logradouro').val(),
-            numero: id
+            numero: parseInt($('#numero').val())
         }
     }).then(result => {
         console.log(result);
